@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">I Am Poor</string>
+    <string name="textLabel1">I am poor!</string>
+    <string name="imgName"></string>
 </resources>
