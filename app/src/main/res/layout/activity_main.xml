@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="#fab1a0"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -15,21 +15,39 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/textView1"
         android:contentDescription="@string/imgName"
         app:srcCompat="@drawable/coal" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="24dp"
+        android:text="@string/textLabel1"
+        android:textColor="#dfe6e9"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:text="@string/textLabel1"
-        android:textColor="#000000"
-        android:textSize="40sp" />
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@id/textView1"
+        android:layout_toRightOf="@id/textView1"
+        android:text="@string/textLabel2"
+        android:textColor="#dfe6e9"
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
